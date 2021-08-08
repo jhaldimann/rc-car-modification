@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+
+target 'Remote-Control' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Remote-Control
+  project 'Remote-Control.xcodeproj'
+  platform :ios, '14.0'
+  
+  pod 'CocoaMQTT'
+  pod 'OpenSSL-Universal'
+
+end

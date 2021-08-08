@@ -1,1 +1,4 @@
 .idea/
+*.DS_Store
+Podfile.lock
+remote-control/Remote-Control/Pods/
